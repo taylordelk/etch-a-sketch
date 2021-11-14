@@ -1,0 +1,27 @@
+body{
+    align-items: center;
+    justify-content: center;
+    height: 935px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 800px;
+    border: 5px black solid;
+    flex: 0;
+    margin: auto;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    width: 800px;
+    flex: 1 1 0;
+}
+
+.box{
+    flex: 1 1 0;
+    background-color: black;
+    display: flex;
+}
