@@ -33,6 +33,7 @@ button.addEventListener('click',function(e){
                     for(kk=0;kk<griddim;kk++){
                         let box=document.createElement('div');
                         box.classList.add('box');
+                        box.style.backgroundColor='black';
                         row.appendChild(box);
                     }
                     container.appendChild(row);
@@ -63,6 +64,7 @@ for(let j=0;j<4;j++){
     for(i=0;i<4;i++){
         let box=document.createElement('div');
         box.classList.add('box');
+        box.style.backgroundColor='black';
         row.appendChild(box);
     }
     container.appendChild(row);
